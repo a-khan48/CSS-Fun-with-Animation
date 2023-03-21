@@ -1,0 +1,98 @@
+
+
+.joke{
+    border: 3px dashed white;
+    margin: 5px 5px 5px 0px;
+    padding: 5px;
+    text-align: left;
+
+}
+
+.joke2{
+    border: 3px dashed white;
+    margin: 32.5px 0px 0px 0px;
+    padding: 5px;
+    text-align: left;
+
+}
+
+.jokespan{
+    display: inline-block;
+    animation: bounceIn; 
+    animation-fill-mode: backwards;
+    animation-delay: 2.75s;
+    animation-duration: 2.8s; 
+}
+
+.jokespan2{
+    display: inline-block;
+    animation: bounceIn; 
+    animation-fill-mode: backwards;
+    animation-delay: 3.25s;
+    animation-duration: 2.8s; 
+}
+
+.jokespan3{
+    display: inline-block;
+    animation: bounceIn; 
+    animation-fill-mode: backwards;
+    animation-delay: 3.75s;
+    animation-duration: 2.8s; 
+}
+
+
+.title{
+    text-align: center;
+    margin: 0 0.5rem;
+    
+    animation: backInRight; 
+    animation-duration: 1.5s; 
+}
+
+.subtitle{
+    text-align: center;
+    margin: 0 0.5rem;
+    
+    animation: backInLeft; 
+    animation-duration: 1.5s;
+}
+
+div > h3{
+    border-bottom: 7px dotted white;
+    width: 55px;
+}
+
+.answer{
+    display:inline;
+border: 3px solid white; 
+    padding: 5px;
+    color: cadetblue;
+
+}
+
+.answerspan:hover:hover{
+    color: white;
+    display: inline-block;
+
+    animation: fadeIn; 
+    animation-duration: 2s; 
+
+}
+
+.hr{
+    margin-top: 37.5px;
+}
+
+footer{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer:hover{
+
+    animation: hinge; 
+    animation-duration: 7s; 
+    animation-fill-mode: forwards;
+
+}
